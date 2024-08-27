@@ -6,10 +6,44 @@
     --title-color:#00008B;
     --icons-color:grey;
     --font-size:1rem;
-    --font-family:"IBM Plex Sans Hebrew", sans-serif;
+    --font-family:"IBM Plex Sans Hebrew, sans-serif";
 }
-*{
-    margin: 0;
-    padding: 0;
-    border:0;
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 2 rem;
+
+}
+.button{
+    padding: 10px 20px;
+    padding-top: 1rem;
+    border: none;
+    border-radius: 1 rem;
+    font-size:  5 rem;
+    cursor: pointer;
+    font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+
+.button:first-child{
+    background-color: #00008B;
+    color:#87CEEB
+}
+.button:last-child{
+    background-color: #00008B;
+    color:#87CEEB;
+    font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+.create{
+    padding: 10px 20px;
+    padding-top: 0.5rem;
+    border: none;
+    border-radius: 1 rem;
+    font-size: 3 rem;
+    cursor: pointer;
+    font-family:"IBM Plex Sans Hebrew,sans-serif";
+}
+
+.create:first-child{
+    background-color: #00008B;
+    color:#87CEEB
 }
