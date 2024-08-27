@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+    --primary-color:blue;
+    --secondary-color:#87CEEB;
+    --text-color:#000F;
+    --title-color:#00008B;
+    --icons-color:grey;
+    --font-size:1rem;
+    --font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+body{
+font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+.login-container{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-form{
+    margin-top: 20px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-form input[type="email"],
+.login-form input[type="email"]{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-form input[type="phone"],
+.login-form input[type="phone"]{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.create{
+    padding: 10px 20px;
+    border: ridge;
+    border-radius: 1 rem;
+    font-size:  5 rem;
+    cursor: pointer;
+    font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+.create:first-child{
+    background-color: orange;
+}

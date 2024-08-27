@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+    --primary-color:blue;
+    --secondary-color:#87CEEB;
+    --text-color:#000F;
+    --title-color:#00008B;
+    --icons-color:grey;
+    --font-size:1rem;
+    --font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 2 rem;
+
+}
+.button{
+    padding: 10px 20px;
+    padding-top: 1rem;
+    border: none;
+    border-radius: 1 rem;
+    font-size:  5 rem;
+    cursor: pointer;
+    font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+
+.button:first-child{
+    background-color: #00008B;
+    color:#87CEEB
+}
+.button:last-child{
+    background-color: #00008B;
+    color:#87CEEB;
+    font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+.create{
+    padding: 10px 20px;
+    padding-top: 0.5rem;
+    border: none;
+    border-radius: 1 rem;
+    font-size: 3 rem;
+    cursor: pointer;
+    font-family:"IBM Plex Sans Hebrew,sans-serif";
+}
+
+.create:first-child{
+    background-color: #00008B;
+    color:#87CEEB
+}

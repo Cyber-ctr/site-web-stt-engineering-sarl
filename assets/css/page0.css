@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+    --primary-color:blue;
+    --secondary-color:#87CEEB;
+    --text-color:#000F;
+    --title-color:#00008B;
+    --icons-color:grey;
+    --font-size:1rem;
+    --font-family:"IBM Plex Sans Hebrew, sans-serif";
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Arial, sans-serif";
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Full viewport height */
+    border-radius: 2rem;
+}
+
+.logo img {
+    max-width: 100%; /* Responsive logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.login-button {
+    margin-top: 0px; /* Space between logo and button */
+    padding: 10px 20px;
+    font-size: 55px;
+    border: none;
+    background-color: #007bff; /* Button color */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Button hover color */
+}
+

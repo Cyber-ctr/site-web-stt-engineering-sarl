@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color:grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Full viewport height */
+    border-radius: 2rem;
+}
+
+
+.login-button {
+    margin-top: 20px; /* Space between logo and button */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent; /* Button color */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: fantasy;
+    font-size: larger;
+    
+}
+
+.login-button:hover {
+    background-color: turquoise; /* Button hover color */
+}
